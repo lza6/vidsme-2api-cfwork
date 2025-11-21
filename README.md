@@ -12,7 +12,6 @@
 > **Project Chimera: Synthesis Edition (v2.0.3)**
 > *"将复杂的混沌，编织成优雅的接口。"*
 
-[![部署到 Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lza6/vidsme-2api-cfwork)
 [![许可证](https://img.shields.io/badge/许可证-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![版本](https://img.shields.io/badge/版本-2.0.3-success)](https://github.com/lza6/vidsme-2api-cfwork)
 [![运行环境](https://img.shields.io/badge/运行环境-Cloudflare%20Worker-orange)](https://workers.cloudflare.com/)
@@ -116,12 +115,7 @@ flowchart TD
 1.  🆓 注册一个 [Cloudflare](https://dash.cloudflare.com/) 账号
 2.  📝 拥有一个 GitHub 账号
 
-### 第二步：一键部署
-点击下方的按钮，Cloudflare 会自动拉取本仓库代码并部署。
-
-[![部署到 Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lza6/vidsme-2api-cfwork)
-
-### 第三步：配置与使用
+### 第二步：配置与使用
 1.  ⚙️ 部署完成后，在 Cloudflare 后台找到你的 Worker
 2.  ✏️ 点击 **"编辑代码"**
 3.  🔑 在代码顶部的 `CONFIG` 区域，修改 `API_MASTER_KEY` 为你自己设置的密码（例如 `"sk-mysecret123"`）
